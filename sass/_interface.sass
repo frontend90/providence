@@ -1,0 +1,37 @@
+@font-face 
+  font-family: 'latobold'
+  src: url(../fonts/latobold.ttf)
+@font-face 
+  font-family: 'latolight'
+  src: url(../fonts/latolight.ttf)
+@font-face 
+  font-family: 'latoregular'
+  src: url(../fonts/latoregular.ttf)
+@font-face 
+  font-family: 'varelaround'
+  src: url(../fonts/varelaround.ttf)
+@font-face 
+  font-family: 'fa-brands-400'
+  src: url(../fonts/fa-brands-400.ttf)
+@font-face 
+  font-family: 'fa-solid-900'
+  src: url(../fonts/fa-solid-900.ttf)
+@mixin lat_bold
+  font-family: 'latobold', sans-serif
+@mixin lat_light
+  font-family: 'latolight', sans-serif
+@mixin lat_reg
+  font-family: 'latoregular', sans-serif
+@mixin varela
+  font-family: 'varelaround', sans-serif
+@mixin brand
+  font-family: 'fa-brands-400'
+@mixin solid
+  font-family: 'fa-solid-900'
+.container 
+  max-width: 1170px 
+  margin: auto
+body 
+  font-size: 20px 
+  color: #8c8f94
+  +lat_reg
