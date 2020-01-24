@@ -43,16 +43,232 @@ body {
   height: 100vh;
   background: url(../img/header/bg.jpg) no-repeat;
   background-size: cover;
-  background-position: 100% 100%;
+  background-position: 100% 80%;
 }
 
 .header .overlay {
+  background: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.header .overlay.active {
+  background: rgba(255, 255, 255, 0);
+}
+
+.header .overlay nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+
+.header .overlay nav .dropdown {
+  width: 20px;
+  height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.header .overlay nav .dropdown span {
+  width: 20px;
+  height: 3px;
+  background: #1b1c1e;
+}
+
+.header .overlay nav .dropdown span::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  opacity: 0.5;
+  height: 3px;
+  background: #1b1c1e;
+}
+
+.header .overlay nav .dropdown span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #1b1c1e;
+}
+
+.header .overlay nav .menu {
+  position: absolute;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .overlay nav .menu a {
+  font-size: 16px;
+  color: rgba(27, 28, 30, 0.5);
+  margin-left: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .overlay nav .menu a:first-of-type {
+  margin-left: 0;
+}
+
+.header .overlay nav .menu a:hover {
+  color: #26272d;
+}
+
+.header .overlay nav .logo {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .overlay nav .logo h5 {
+  color: #26272d;
+  text-transform: uppercase;
+  font-family: 'latolight', sans-serif;
+}
+
+.header .overlay nav .logo h5 span {
+  font-family: 'latobold', sans-serif;
+}
+
+.header .overlay nav .get {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .overlay nav .get .link a {
+  font-size: 16px;
+  color: rgba(27, 28, 30, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 20px;
+}
+
+.header .overlay nav .get .link a:last-of-type {
+  margin-right: 0;
+}
+
+.header .overlay nav .get .link a:hover {
+  color: #26272d;
+}
+
+.header .overlay nav .get .btn {
+  margin-left: 25px;
+}
+
+.header .overlay nav .get .btn button {
+  width: 130px;
+  height: 45px;
+  background: #267df4;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .overlay nav .get .btn button .fab {
+  font-family: 'fa-brands-400';
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.header .overlay nav .get .btn button:hover {
   background: #ffffff;
+  color: #267df4;
+  -webkit-box-shadow: 0 0 5px rgba(38, 39, 45, 0.5);
+          box-shadow: 0 0 5px rgba(38, 39, 45, 0.5);
+}
+
+.header .overlay .title {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.header .overlay .title h2 {
+  font-family: 'varelaround', sans-serif;
+  font-size: 62px;
+  color: #26272d;
+}
+
+.header .overlay .title p {
+  margin: auto;
+  margin-top: 20px;
+  line-height: 28px;
+  max-width: 780px;
+}
+
+.header .overlay .title .btn {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .overlay .title .btn button {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background: transparent;
+  border: 1px solid rgba(38, 39, 45, 0.1);
+  font-size: 16px;
+  color: #26272d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .overlay .title .btn button:hover {
+  background: #ffffff;
+}
+
+.header .overlay .title .btn button .fas {
+  font-family: 'fa-solid-900';
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.header .overlay .img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
