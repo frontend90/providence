@@ -1,10 +1,16 @@
 .features 
   padding-top: 125px 
+  padding-bottom: 190px 
   & .block 
     display: flex
-    justify-content: space-around
-    & .box 
+    justify-content: flex-end
+    & .img 
+      position: absolute
+      left: 0
+    & .content  
       max-width: 475px 
+      float: right
+      margin-top: 140px 
       & h5 
         max-width: 230px 
         font-size: 42px 
@@ -44,3 +50,41 @@
           height: 40px 
           border: 1px solid rgba(#26272d,0.1)
           border-radius: 40px 
+  & .coordinates
+    margin-top: 400px 
+    display: flex
+    & .content 
+      & h5 
+        +varela
+        font-size: 42px 
+        color: #26272d
+        line-height: 52px 
+        max-width: 290px 
+        margin-bottom: 45px 
+      & p 
+        margin-top: 20px 
+        line-height: 28px 
+        max-width: 470px 
+        &:first-of-type
+          margin-top: 0
+      & .partners
+        margin-top: 50px 
+        & h6 
+          +lat_bold
+          font-size: 12px 
+          letter-spacing: 1.2px 
+          color: #26272d
+        & .links 
+          margin-top: 15px 
+          & a   
+            margin-left: 20px 
+            & img 
+              transition: 0.3s
+              &:hover
+                transform: scale(1.1)
+            &:first-of-type
+              margin-left: 0
+    & .map 
+      position: absolute
+      right: 0
+

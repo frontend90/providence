@@ -1,0 +1,124 @@
+.landing 
+  padding-top: 140px 
+  padding-bottom: 130px 
+  background: #f5f5f8
+  & .title 
+    text-align: center
+    & h5 
+      +varela
+      font-size: 42px 
+      color: #26272d
+    & .line 
+      width: 55px 
+      height: 2px 
+      background: #267df4
+      margin: 30px auto
+    & p 
+      +lat_bold
+      text-transform: uppercase
+      font-size: 12px 
+      letter-spacing: 1.2px 
+  & .block-img
+    margin-top: 40px 
+    display: flex
+    justify-content: space-between
+    height: 100% 
+    & img 
+      height: 100% 
+      cursor: pointer
+      transition: 0.5s
+      &:hover
+        transform: scale(1.2)
+  & .get 
+    margin-top: 190px 
+    text-align: center
+    & form 
+      & h5 
+        text-transform: uppercase
+        font-size: 12px 
+        color: #3a3d4b
+        letter-spacing: 1.2px 
+      & h4 
+        margin-top: 25px 
+        +varela
+        font-size: 42px 
+        color: #3a3d4b
+      & .input 
+        position: relative
+        width: 505px 
+        height: 50px 
+        margin-top: 25px 
+        text-align: left
+        left: 50%
+        transform: translateX(-50%)
+        display: flex
+        align-items: center
+        & input 
+          position: absolute
+          width: 100%
+          height: 100%
+          border: 1px solid rgba(#26272d,0.1)
+          border-radius: 40px 
+          font-size: 16px 
+          color: #3a3d4b
+          padding-left: 20px 
+          &::placeholder 
+            color: #3a3d4b
+        & .btn 
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(50%,-50%)
+          text-align: right
+          & button  
+            background: #6fc754
+            border-radius: 40px 
+            width: 165px 
+            height: 40px 
+            color: #ffffff
+            font-size: 16px 
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 0 30px 
+            & .fas 
+              +solid 
+              font-size: 12px
+    & .download
+      margin-top: 50px 
+      & p 
+        font-size: 12px 
+        color: #3a3d4b
+        letter-spacing: 1.2px 
+        text-transform: uppercase
+      & .btn
+        margin-top: 15px  
+        display: flex
+        justify-content: center
+        & button 
+          background: #131315
+          border-radius: 40px 
+          width: 210px 
+          height: 60px 
+          color: #ffffff
+          display: flex
+          align-items: center
+          justify-content: space-between
+          padding: 0 25px 
+          transition: 0.3s
+          &:hover
+            transform: scale(1.1)
+          & .icon 
+            +brand 
+            font-size: 23px 
+          & .desc 
+            text-align: left
+            & p 
+              font-size: 12px 
+              color: #ffffff
+              text-transform: none 
+              line-height: 20px 
+              &:last-of-type
+                font-size: 23px 
+
+
