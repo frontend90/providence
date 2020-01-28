@@ -1,0 +1,72 @@
+.blog 
+  padding-top: 135px 
+  padding-bottom: 125px 
+  & .blog-slider
+    background: 
+    position: relative
+    & .slick-arrow 
+      position: absolute
+      top: 25px 
+      z-index: 1
+      width: 25px 
+      height: 40px 
+      font-size: 0
+      &.slick-prev
+        left: 0
+        background: url(../img/blog/left-arrow.svg) 0 0 no-repeat 
+        background-position: 100% 100%
+      &.slick-next 
+        background: url(../img/blog/right-arrow.svg) 0 0 no-repeat 
+        right: 0   
+        background-position: 100% 100%
+    & .slick-list 
+      overflow: hidden
+      & .slick-track 
+        display: flex
+        padding-top: 10px 
+        & .block 
+          text-align: center
+          & .img 
+            & img 
+              transform: scale(0.9)
+              opacity: 0.2
+          & .title 
+            display: none 
+          & .rating 
+            display: none 
+          & .author 
+            display: none 
+          &.slick-center
+            & .img 
+              & img 
+                box-shadow: 0 30px 30px rgba(#26272d,0.2)
+                border-radius: 50%
+                transform: scale(1.2)
+                opacity: 1
+            & .title 
+              display: block 
+              margin-top: 50px 
+              & h5 
+                +lat_light
+                font-size: 22px 
+                line-height: 38px 
+                color: #26272d
+              & p 
+                margin-top: 30px 
+                line-height: 28px 
+            & .rating 
+              display: block 
+              margin-top: 20px 
+              & .fas 
+                +solid 
+                color: #f2bc3b
+            & .author 
+              display: block 
+              margin-top: 40px 
+              & p 
+                text-transform: uppercase
+                +lat_bold
+                font-size: 12px 
+                letter-spacing: 1.2px 
+                color: #26272d
+        

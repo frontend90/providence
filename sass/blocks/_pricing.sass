@@ -1,0 +1,144 @@
+.pricing 
+  padding-top: 160px 
+  padding-bottom: 190px 
+  background: #f4f4f5
+  & .block 
+    display: flex
+    justify-content: space-between
+    & .content 
+      margin-top: 35px 
+      max-width: 360px 
+      & h5 
+        +varela 
+        font-size: 42px 
+        color: #26272d
+        line-height: 52px 
+      & h6 
+        margin-top: 45px 
+        text-transform: uppercase
+        +lat_bold
+        font-size: 12px 
+        letter-spacing: 1.2px 
+        color: #26272d
+      & .btn 
+        margin-top: 10px 
+        display: flex
+        justify-content: space-around
+        align-items: center
+        border: 1px solid rgba(#26272d,0.1)
+        width: 255px 
+        height: 50px
+        border-radius: 40px 
+        & button  
+          font-size: 16px 
+          color: #8c8f94
+          text-align: center
+          width: 120px 
+          height: 40px 
+          border-radius: 40px 
+          transition: 0.5s
+        & .individual
+          &.active 
+            background: #ffffff
+            color: #26292c
+        & .company
+          &.active 
+            background: #ffffff
+            color: #26292c            
+      & p 
+        margin-top: 60px 
+        line-height: 28px 
+      & .info 
+        margin-top: 25px 
+        & span 
+          font-size: 14px 
+          & a 
+            text-decoration: underline
+    & .cards 
+      display: flex
+      & .card 
+        width: 330px 
+        height: 510px 
+        background: #ebebed
+        border-radius: 5px 
+        text-align: center
+        position: relative
+        transition: 0.5s
+        & h5 
+          margin-top: 30px 
+          font-size: 32px 
+          +lat_light 
+          color: #26272d
+        & .price 
+          margin: auto
+          margin-top: 10px 
+          border: 1px solid rgba(#26272d,0.1)
+          width: 65px 
+          height: 30px 
+          border-radius: 40px 
+          display: flex
+          align-items: center
+          justify-content: center
+          & span 
+            text-transform: uppercase
+            font-size: 11px 
+            +lat_bold 
+            letter-spacing: 1.1px 
+            color: #26272d
+        & .desc 
+          margin: auto
+          margin-top: 40px 
+          max-width: 175px
+          & p 
+            line-height: 28px 
+        & .list
+          margin: 0
+          margin-top: 30px 
+          & li 
+            list-style: none  
+            & .fas 
+              +solid 
+              color: #6fc754
+              font-size: 14px 
+            & span 
+              margin-left: 5px 
+              font-size: 16px 
+              color: #26292c
+        & .btn 
+          position: absolute
+          top: 80% 
+          left: 50%
+          transform: translateX(-50%) 
+          & button 
+            width: 200px 
+            height: 40px 
+            border: 1px solid #267df4
+            border-radius: 40px 
+            font-size: 16px 
+            color: #267df4
+            transition: 0.3s
+      & .starter
+        &.active 
+          background: #ffffff
+          box-shadow: 0 0 20px rgba(#26272d,0.3)
+          transform: scale(1.1)
+          z-index: 1
+          & .btn 
+            & button
+              &:hover
+                 &:hover
+                  background: #267df4
+                  color: #ffffff
+      & .pro 
+        &.active 
+          background: #ffffff
+          box-shadow: 0 0 20px rgba(#26272d,0.2)
+          z-index: 1
+          transform: scale(1.1)
+          & .btn 
+            & button
+              &:hover
+                 &:hover
+                  background: #267df4
+                  color: #ffffff          
+
