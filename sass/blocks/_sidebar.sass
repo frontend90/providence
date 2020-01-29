@@ -1,0 +1,105 @@
+.sidebar 
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 2
+  background: #26272d
+  height: 100vh 
+  width: 19%
+  transform: translateX(-400px)
+  transition: 1s
+  &.active 
+    transform: translateX(0)
+  & .close 
+    position: absolute
+    width: 20px 
+    height: 20px 
+    top: 45px 
+    right: 10px 
+    display: flex
+    justify-content: center
+    align-items: center
+    transform: rotate(45deg)
+    cursor: pointer
+    & span 
+      background: #ffffff
+      width: 15px 
+      height: 3px 
+      &::before
+        content: ''
+        position: absolute
+        background: #ffffff
+        width: 15px 
+        height: 3px
+        transform: rotate(90deg)
+  & .title 
+    padding-top: 45px 
+    padding-left: 40px 
+    & h5 
+      text-transform: uppercase
+      color: #ffffff
+      +lat_light
+      margin-bottom: 40px 
+      & a 
+        color: #ffffff
+        font-size: 20px 
+        & span 
+          +lat_bold
+        &:hover
+          color: #ffffff
+    & a 
+      display: flex
+      color: #ffffff
+      font-size: 18px
+      margin-top: 10px 
+      transition: 0.3s
+      &:hover
+        color: #267df4
+      &:first-of-type
+        margin-top: 0 
+    & .btn 
+      margin-top: 20px 
+      & button 
+        display: flex
+        align-items: center
+        justify-content: center
+        color: #ffffff
+        width: 130px 
+        height: 45px 
+        background: #267df4
+        border-radius: 40px  
+        font-size: 16px 
+        transition: 0.3s
+        &:hover
+          background: #ffffff
+          color: #267df4
+        & .fab 
+          +brand 
+          margin-right: 10px 
+          font-size: 16px 
+  & .footer 
+    position: absolute
+    left: 40px 
+    bottom: 0px
+    & span 
+      color: #ffffff
+      font-size: 16px
+      display: flex  
+      & a 
+        margin-left: 5px 
+        text-decoration: underline
+    & .social 
+      margin-top: 10px 
+      & a 
+        color: #ffffff
+        margin-left: 20px 
+        transition: 0.3s
+        &:hover
+          color: #267df4
+        &:first-of-type
+          margin-left: 0
+        & .fab 
+          +brand 
+          font-size: 16px 
+
+

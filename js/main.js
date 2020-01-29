@@ -13,16 +13,56 @@ $('.blog-slider').slick({
 });
 
 /****************      pricing card    **************/
-$('.individual').click(function(){
-$('.individual').addClass('active');
-$('.starter').addClass('active');
-$('.company').removeClass('active');
+$('.individual').click(function () {
+  $('.individual').addClass('active');
+  $('.starter').addClass('active');
+  $('.company').removeClass('active');
   $('.pro').removeClass('active');
 });
 
-$('.company').click(function(){
+$('.company').click(function () {
   $('.company').addClass('active');
   $('.pro').addClass('active');
   $('.individual').removeClass('active');
-$('.starter').removeClass('active');
+  $('.starter').removeClass('active');
+});
+
+/*************       open sidebar      *************/
+$('.dropdown').click(function (e) {
+  e.preventDefault();
+  $('.sidebar').toggleClass('active');
+});
+
+$('.sidebar .close').click(function () {
+  $('.sidebar').removeClass('active');
+});
+
+/****************      scroll top     ***************/
+$(window).scroll(function () {
+
+  var wScroll = $(this).scrollTop();
+
+  if (wScroll > 20) {
+    $('.top-menu').addClass('active');
+  } else {
+    $('.top-menu').removeClass('active');
+  };
+});
+
+/*********************     плавный скролл        ************************/
+$(document).ready(function () {
+  $('a[href^="#"]').click(function () {
+    elementClick = $(this).attr("href");
+    destination = $(elementClick).offset().top;
+    if ($.browser) {
+      $('body').animate({
+        scrollTop: destination
+      }, 1000);
+    } else {
+      $('html').animate({
+        scrollTop: destination
+      }, 1000);
+    }
+    return false;
   });
+});
