@@ -45,6 +45,7 @@ body {
   background-size: cover;
   background-position: 100% 80%;
   position: relative;
+  overflow: hidden;
 }
 
 .header .overlay {
@@ -65,6 +66,8 @@ body {
   background: transparent;
   z-index: 2;
   height: 100px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header .overlay .top-menu.active {
@@ -853,6 +856,7 @@ body {
   padding-top: 160px;
   padding-bottom: 190px;
   background: #f4f4f5;
+  overflow: hidden;
 }
 
 .pricing .block {
