@@ -1494,6 +1494,843 @@ body {
   font-size: 16px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .btn {
+    display: none;
+  }
+  .header .overlay .title {
+    padding-top: 100px;
+  }
+  .header .overlay .title h2 {
+    font-size: 50px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 100%;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .block .content .btn {
+    text-align: center;
+  }
+  .features .block .content .btn .learn {
+    margin-top: 20px;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards .card {
+    margin-top: 20px;
+  }
+  .pricing .block .cards .card:first-of-type {
+    margin-top: 0;
+  }
+  .help .form form .input {
+    width: 100%;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .right .box {
+    margin-right: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .footer .block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .block .copy {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 412px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .btn {
+    display: none;
+  }
+  .header .overlay .title h2 {
+    font-size: 50px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 100%;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .block .content .btn {
+    text-align: center;
+  }
+  .features .block .content .btn .learn {
+    margin-top: 20px;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards .card {
+    margin-top: 20px;
+  }
+  .pricing .block .cards .card:first-of-type {
+    margin-top: 0;
+  }
+  .help .form form .input {
+    width: 100%;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .right .box {
+    margin-right: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .footer .block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .block .copy {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 413px) and (max-width: 414px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .btn {
+    display: none;
+  }
+  .header .overlay .title h2 {
+    font-size: 50px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 100%;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .block .content .btn {
+    text-align: center;
+  }
+  .features .block .content .btn .learn {
+    margin-top: 20px;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards .card {
+    margin-top: 20px;
+  }
+  .pricing .block .cards .card:first-of-type {
+    margin-top: 0;
+  }
+  .help .form form .input {
+    width: 100%;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .right .box {
+    margin-right: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .footer .block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .block .copy {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 667px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .title {
+    padding-top: 70px;
+  }
+  .header .overlay .title h2 {
+    font-size: 30px;
+  }
+  .header .overlay .title p {
+    font-size: 16px;
+  }
+  .header .overlay .title .btn {
+    margin-top: 20px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 50%;
+  }
+  .header .sidebar .title {
+    padding-top: 20px;
+  }
+  .header .sidebar .title h5 {
+    margin-bottom: 15px;
+  }
+  .header .sidebar .footer {
+    display: none;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards .card {
+    margin-top: 20px;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 668px) and (max-width: 684px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .title {
+    padding-top: 100px;
+  }
+  .header .overlay .title h2 {
+    font-size: 40px;
+  }
+  .header .overlay .title .btn {
+    margin-top: 20px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 50%;
+  }
+  .header .sidebar .title {
+    padding-top: 20px;
+  }
+  .header .sidebar .footer {
+    display: none;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 685px) and (max-width: 734px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .title {
+    padding-top: 100px;
+  }
+  .header .overlay .title h2 {
+    font-size: 40px;
+  }
+  .header .overlay .title .btn {
+    margin-top: 20px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 50%;
+  }
+  .header .sidebar .title {
+    padding-top: 20px;
+  }
+  .header .sidebar .footer {
+    display: none;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 736px) {
+  .container {
+    max-width: 90%;
+  }
+  .header .overlay .top-menu {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav {
+    height: 60px;
+  }
+  .header .overlay .top-menu nav .menu {
+    display: none;
+  }
+  .header .overlay .top-menu nav .get .link {
+    display: none;
+  }
+  .header .overlay .title {
+    padding-top: 100px;
+  }
+  .header .overlay .title h2 {
+    font-size: 40px;
+  }
+  .header .overlay .title .btn {
+    margin-top: 20px;
+  }
+  .header .overlay .img {
+    display: none;
+  }
+  .header .sidebar {
+    width: 50%;
+  }
+  .header .sidebar .title {
+    padding-top: 20px;
+  }
+  .header .sidebar .footer {
+    display: none;
+  }
+  .tour .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour .block .right {
+    margin-top: 50px;
+  }
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .features .block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .block .img {
+    display: none;
+  }
+  .features .coordinates {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .features .coordinates .map {
+    display: none;
+  }
+  .landing {
+    display: none;
+  }
+  .pricing {
+    padding-top: 60px;
+  }
+  .pricing .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing .block .cards {
+    margin-top: 50px;
+  }
+  .contacts .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts .block .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contacts .block .left .btn button {
+    margin: auto;
+  }
+  .contacts .block .right {
+    margin-top: 50px;
+  }
+}
+
 @media screen and (min-width: 737px) and (max-width: 768px) {
   .container {
     max-width: 90%;

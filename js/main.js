@@ -9,7 +9,16 @@ $('.blog-slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   infinite: true,
-  speed: 1000
+  speed: 1000,
+  responsive: [
+    {
+      breakpoint: 415,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
 });
 
 /****************      pricing card    **************/
